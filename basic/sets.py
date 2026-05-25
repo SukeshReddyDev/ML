@@ -39,3 +39,21 @@ s1={1,2}
 s2={3,4,5,6}
 print(s1.isdisjoint(s2))
 
+#SOME BASIC PROBLEMS IN SETS
+
+l=[1,2,2,3,4,5,6,6,7]
+s=set(l)
+print(s)
+
+l1=[1,2,3,4]
+l2=[3,4,5,6]
+s1=set(l1)
+s2=set(l2)
+print(s1.intersection(s2))
+
+x={1,2,3,4}
+t=20
+if t in x:
+    print("found")
+else:
+    print("not found")
